@@ -100,6 +100,7 @@ public class ReizigerSQLiteDaoImpl extends SQLiteBaseDao implements ReizigerDao 
         ArrayList<Reiziger> reizigers = new ArrayList<>();
 
         while(result.next()) {
+            //Creating LocalDate object from ResultSet since SQLite return types in String yyyy-MM-dd format
             LocalDate gebortedatum = LocalDate.parse(result.getString("GEBORTEDATUM"), formatter);
 
             Reiziger reiziger = new Reiziger(result.getInt("REIZIGERID"),
@@ -113,6 +114,7 @@ public class ReizigerSQLiteDaoImpl extends SQLiteBaseDao implements ReizigerDao 
             }
 
             if(result.getInt("KAARTNUMMER") != 0) {
+                //Creating LocalDate object from ResultSet since SQLite return types in String yyyy-MM-dd format
                 LocalDate geldigtot = LocalDate.parse(result.getString("GELDIGTOT"), formatter);
 
                 OVchipkaart oVchipkaart = new OVchipkaart(
