@@ -44,7 +44,24 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dao/OVchipkaartSQLiteDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="110" column="17" lean-forward="true" selection-start-line="108" selection-start-column="24" selection-end-line="110" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#findAll#0;class#OVchipkaartSQLiteDaoImpl#0" />
+                <element signature="method#save#0;class#OVchipkaartSQLiteDaoImpl#0" />
+                <element signature="method#update#0;class#OVchipkaartSQLiteDaoImpl#0" />
+                <element signature="method#delete#0;class#OVchipkaartSQLiteDaoImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +75,9 @@
     <findStrings>
       <find>ReizigerOracleDaoImpl</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,6 +103,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -116,6 +137,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sqlite-jdbc/hibernatesqlite-1.0.jar!/" />
@@ -167,15 +189,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559054605589</updated>
-      <workItem from="1559054608861" duration="17115000" />
+      <workItem from="1559054608861" duration="17433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17115000" />
+    <option name="totallyTimeSpent" value="17433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Persistence" side_tool="true" />
@@ -332,7 +355,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/OVchipkaartSQLiteDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="779">
           <caret line="110" column="17" lean-forward="true" selection-start-line="108" selection-start-column="24" selection-end-line="110" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
