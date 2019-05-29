@@ -1,5 +1,3 @@
-# SQLiteDemo
-
 # SQLite CRUD operating using Java 
 
 PowerPoint: https://docs.google.com/presentation/d/1cfa_IzBEigxjx2A7qgR_-pJoukLCmNCvHfR7QZvxUHU/edit?usp=sharing
